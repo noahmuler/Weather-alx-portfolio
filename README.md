@@ -27,9 +27,11 @@
 
 ### Installation
 
-Go to folder
-run 'npm install'
-run 'npm start'
+Go to folder.
+
+run 'npm install'.
+
+run 'npm start'.
 
 ### Live Link (Google Firebase)
 
