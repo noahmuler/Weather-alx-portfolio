@@ -1,8 +1,10 @@
-# ALX - Weather Portfolio Application
+# ALX - Weatherify Portfolio Application
 
 ### A react application built with modern technologies
 
+#### A weather forecast web application
 
+#### An amazing weather application that can track the atmospheric condition of any place in the world as well as provide up to 5 days weather forecast.
 
 ### Application Features.
 
@@ -23,6 +25,11 @@
 #### Bootstrap [User Interface]
 #### Jquery AJAX [API Requests]
 
+### Installation
+
+Go to folder
+run 'npm install'
+run 'npm start'
 
 ### Live Link (Google Firebase)
 
