@@ -225,7 +225,7 @@ const WeatherApp = () => {
 				<section className="app-header d-flex justify-content-between px-2 flex-row-reverse ">
 					<section className="city-location">
 						<h5 className="fw-bold fs-5" id="weatherLocation">
-							{db.get("WEATHER_LOCATION") || "Lagos 9ja"}
+							{db.get("WEATHER_LOCATION") || "Addis Ababa ET"}
 						</h5>
 						<p className="date-time text-muted brand-small-text text-capitalize">
 							{getCurrentDate()}

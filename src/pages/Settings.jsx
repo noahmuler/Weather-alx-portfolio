@@ -16,7 +16,7 @@ const Settings = () => {
 	const [weatherUnit, setWeatherUnit] = useState();
 	//database returns a string
 	let trackedLocation = db.get("TRACK_SAVED_LOCATION_WEATHER");
-	let trackedLocationLegit = trackedLocation == "true" ? true : false;
+	let trackedLocationLegit = trackedLocation === "true" ? true : false;
 
 	return (
 		<React.Fragment>
@@ -36,7 +36,7 @@ const Settings = () => {
 						</svg>
 					</div>
 					<section className="city-locaton">
-						<h5 className="fw-bold fs-5 text-capitalize">change Settings</h5>
+						<h5 className="fw-bold fs-5 text-capitalize">Settings</h5>
 					</section>
 					<div className="toggle-btn "></div>
 				</section>

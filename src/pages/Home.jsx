@@ -32,7 +32,7 @@ const Home = () => {
           $.noConflict();
           const $defaultLocation = $("#defaultLocation").val().trim();
 
-          if ($defaultLocation === undefined || $defaultLocation == "") {
+          if ($defaultLocation === undefined || $defaultLocation === "") {
             Swal.fire({
               title: "Invalid Location!",
               html: "<p class=' text-center text-danger'>Please enter a valid location</p>",
@@ -69,9 +69,18 @@ const Home = () => {
       <Spinner />
       <div className="weather-preloader container-fluid d-flex align-items-center flex-column">
         <main className="my-5 preloader-weather-heading">
-          <h2 className="text-center text-capitalize m-auto fw-bold fs-2">
-            How's today's weather?
+          <h2 className="text-center text-primary text-capitalize m-auto fw-bold fs-1">
+            Weatherify
           </h2>
+          <br/>
+          <h3 className="text-center text-info m-auto fw-normal fs-5">
+            Accurate weather forecast for your city.
+          </h3>
+          <br/>
+          <br/>
+          <h3 className="text-center text-secondary m-auto fw-normal fs-7">
+            Get more detail information for your weather including humdity, wind, and pressure.
+          </h3>
         </main>
 
         <section
@@ -86,15 +95,8 @@ const Home = () => {
             alt="current-weather-status"
           />
         </section>
-
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-
         <Button
-          text="today's weather"
+          text="Get Started"
           style={customBtnStyle}
           className="brand-btn m-auto my-5 width-toggle"
           onClick={(event) => {
